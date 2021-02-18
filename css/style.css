@@ -1,0 +1,49 @@
+body {
+  font-family: 'Caladea', swap;
+}
+
+body .header-section {
+  background-image: url("../img/bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+body .header-section .nav-link {
+  color: black !important;
+}
+
+body .header-section .main .main__content {
+  width: 40%;
+}
+
+body .header-section .main .main__content h1 {
+  font-size: 60px;
+}
+
+body .header-section .main .main__content .content-link {
+  text-decoration: none;
+  color: #E2b358;
+}
+
+body .header-section .main .main__content .content-link__explore {
+  padding: 10px !important;
+  background-color: black !important;
+  color: white !important;
+}
+
+body .header-section .main .main__content .content-link__explore:hover {
+  background-color: gray !important;
+}
+
+body .header-section .main .main-image {
+  position: relative !important;
+  width: 45%;
+  margin-left: 550px !important;
+}
+
+.position-block {
+  position: absolute !important;
+  top: 10%;
+  left: 0%;
+}
+/*# sourceMappingURL=style.css.map */

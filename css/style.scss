@@ -1,0 +1,47 @@
+body{
+    font-family:  'Caladea', swap;
+     .header-section{
+         background: {
+             image: url('../img/bg.png');
+             repeat: no-repeat;
+             position: right;
+         }
+         .nav-link{
+            color: black!important;
+         }
+         .main{
+            .main__content{
+                width: 40%;
+                h1{
+                    font-size: 60px;
+                }
+                .content-link{
+                    text-decoration: none;
+                    color: #E2b358;
+                }
+                .content-link__explore{
+                    padding: 10px!important;
+                    background-color: black!important;
+                    color: white!important; 
+                }
+                .content-link__explore:hover{
+                    background-color:gray!important;
+
+                }
+            }
+            .main-image{
+                position: relative!important;
+                width: 45%;
+                margin-left: 550px!important;
+                .position-block{
+                    position: absolute!important;
+                    top: 10%;
+                    left: 0%;
+                }
+            }
+            
+        }
+     }
+     
+}
+
